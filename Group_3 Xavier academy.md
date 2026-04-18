@@ -151,7 +151,7 @@ Xavier Academy's network is a segmented, redundant campus LAN consisting of two 
 | Fa0/3 | 192.168.30.1/24 | N/A | L2-S2 | Fa0/1 | 30 |
 | Fa0/4 | 192.168.40.1/24 | N/A | L2-S3 | Fa0/1 | 40 |
 | Fa0/5 | 192.168.99.1/24 | N/A | L2-S4 | Fa0/2 | 99 |
-| Fa0/7 | 192.168.88.1/24 | N/A | ADDS Server | NIC | 88 |
+| Fa0/7 | 192.168.50.1/24 | N/A | ADDS Server | NIC | 88 |
 | Fa0/9 | 192.168.10.1/24 | N/A | L3-S2 | Fa0/9 | — |
 | Fa0/10 | 192.168.10.1/24 | N/A | L3-S2 | Fa0/10 | — |
 
@@ -161,12 +161,12 @@ Xavier Academy's network is a segmented, redundant campus LAN consisting of two 
 |------|------------|---------|--------------|----------------|-----:|
 | Fa0/1 | 192.168.60.14/24 | 192.168.60.1 | ISP-Router2 | G0/0/1 | N/A (routed) |
 | Fa0/2 | 192.168.100.15/24 | N/A | L2-S1 | Fa0/2 | 20 |
-| Fa0/3 | 192.168.30.1/24 | N/A | L2-S2 | Fa0/2 | 30 |
-| Fa0/4 | 192.168.40.1/24 | N/A | L2-S3 | Fa0/2 | 40 |
-| Fa0/5 | 192.168.99.1/24 | N/A | L2-S4 | Fa0/1 | 99 |
-| Fa0/7 | 192.168.88.1/24 | N/A | ADDS Server | NIC | 88 |
-| Fa0/9 | 192.168.10.1/24 | N/A | L3-S2 | Fa0/9 | — |
-| Fa0/10 | 192.168.10.1/24 | N/A | L3-S2 | Fa0/10 | — |
+| Fa0/3 | 192.168.30.2/24 | N/A | L2-S2 | Fa0/2 | 30 |
+| Fa0/4 | 192.168.40.2/24 | N/A | L2-S3 | Fa0/2 | 40 |
+| Fa0/5 | 192.168.99.2/24 | N/A | L2-S4 | Fa0/1 | 99 |
+| Fa0/7 | 192.168.50.2/24 | N/A | ADDS Server | NIC | 88 |
+| Fa0/9 | 192.168.10.2/24 | N/A | L3-S2 | Fa0/9 | — |
+| Fa0/10 | 192.168.10.2/24 | N/A | L3-S2 | Fa0/10 | — |
 
 ### 5.5 Access Switches
 
